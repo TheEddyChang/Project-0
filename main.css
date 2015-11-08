@@ -1,16 +1,30 @@
 
+p {
+	font-size: 20px
+}
+
 
 .header {
 
 	height: 100px;
-	background: white;
+	
 	width: 100%;
 	z-index: 10;
 	position: fixed;
 	top: 0px;
 	text-align: center;
+	font-family: 'Kaushan Script', cursive;
+	
 	
 }
+
+
+.header img {
+	height: 80px;
+	width: 80px;
+}
+
+
 
 #player1 {
 	position: relative;
@@ -25,6 +39,10 @@
 
 	
 }
+
+#finish {
+
+}	
 
 
 
