@@ -34,6 +34,7 @@ p {
 #player2 {
 
 	position: relative;
+	top: 200px;
 }
 
 #racetrack {
@@ -44,7 +45,9 @@ p {
 	position: fixed;
 	margin: 100px 0px 0px 50px;
 	border-radius: 50px;
-
+    font-size: 50px;
+    text-align: center;
+    font-color: blue;
 }
 
 
@@ -63,9 +66,10 @@ p {
 	background-color: blue;
 	width: 10px;
 	height: 600px;
-	float: right;
-	margin-right: 100px;
-	position:abolsute;
+	
+	margin-left: 1100px;
+	position: fixed;
 
 }
 
+h
