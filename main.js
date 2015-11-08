@@ -49,6 +49,18 @@ $(document).ready(function() {
 
 	//div collision to determine winner?
 
+	var raceWinner;
+
+
+	function winner() {
+		raceWinner = $('#player1').collision('#finish');
+		if(raceWinner.length !==0) {
+			$('#racetrack').text("WINNER!!!!!!!!!");
+
+		}
+	}
+	
+
 
 
 });
