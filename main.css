@@ -12,6 +12,20 @@
 	
 }
 
+#player1 {
+	position: relative;
+	
+
+	
+}
+
+#player2 {
+
+	position: relative;
+
+	
+}
+
 
 
 #racetrack {
@@ -35,13 +49,3 @@
 	border-radius: 50px;
 }
 
-#player1 {
-
-	
-}
-
-#player2 {
-
-	padding-bottom: 250px;
-	
-}

@@ -4,16 +4,25 @@ $(document).ready(function(){
 
 
 
-	$(window).keypress(function(event){
-        if(event.which == "77")
-            $(".racetrack").animate({"left" : "-=30px"});
+	$('body').keydown(function(key){
 
-        if(event.which == "90")
-            $(".racetrack").animate({"left" : "+=30px"});
-		
-
-});
-
+	switch (parseInt(key.which)) {
+           
+           case 77:
+               $('#player1').animate({
+                   left: "+=10px"
+               }, 'fast');
+               break;
+                case 90:
+               $('#player2').animate({
+                   left: "+=10px"
+               }, 'fast');
+               break;
+           default:
+               break;
+       }
+   });
+  
 
 
 
