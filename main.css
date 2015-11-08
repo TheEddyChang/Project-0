@@ -1,14 +1,35 @@
 
 
-
-h1 {
-	font-size: 50px;
+.header {
+	height: 100px;
+	background: white;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+	top: 0px;
 	text-align: center;
-
+	
 }
+
+
 
 #racetrack {
 	background-color: yellow;
-	height: 250px;
-	margin: 50px 0px 0px 130px;
+	height: 350px;
+	width: 95%;
+	position: fixed;
+	margin: 100px 0px 0px 50px;
+	border-radius: 50px;
+
+}
+
+
+#content {
+	position: relative;
+	background: beige;
+	width: 95%;
+	height: 1000px;
+	margin-left: 50px;
+	top: 480px;
+	border-radius: 50px;
 }
