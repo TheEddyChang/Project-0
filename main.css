@@ -40,14 +40,13 @@ p {
 	
 }
 
-#finish {
 
-}	
 
 
 
 #racetrack {
-	background-color: yellow;
+	background-image: url("http://jessperna.com/images/covers/race_track_art_drawing.jpg");
+	background-size: cover;
 	height: 450px;
 	width: 95%;
 	position: fixed;
