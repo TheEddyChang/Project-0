@@ -32,30 +32,23 @@ $(document).ready(function() {
 		}
 
 
-	     if (counter1 === 37) {        //IF STATEMENT TO DECLARE A WINNER..need more work on stopping the game when winner is reached
-			$("#racetrack").append("PLAYER ONE WINS!!!");
+	     if (counter1 === 40) {        //IF STATEMENT TO DECLARE A WINNER..need more work on stopping the game when winner is reached
+			$("span").append("PLAYER ONE WINS!!!");
 			console.log("winner");
 		}
-			else if(counter2 === 37) {
-				$("#racetrack").append("PLAYER TWO WINS!!!");
+			else if(counter2 === 40) {
+				$("span").append("PLAYER TWO WINS!!!");
 				console.log("winner");
 			}
 			   
 });
 
+     //var playerCar = function() {  //function for player choosing car...cannot choose more than once..
 
 
-
-
-
-
-
-	//var playerCar = function() {  //function for player choosing car...cannot choose more than once..
-
-
-	//player1 can choose which AVATARS
+	 //player1 can choose which AVATARS
 	
-/*
+
 	    $("#btn1").on("click", function() {
 		$("#player1").append('<img src="http://icones.gratuites.web.free.fr/data/Classic%20Car%20Icons/Classic%20Car.ico">');
         
@@ -69,7 +62,7 @@ $(document).ready(function() {
         	$('#player1').append('<img src="http://3.bp.blogspot.com/-wQ976e-5-RM/Ugg_rPAT1mI/AAAAAAAAPm0/NENeQDI9cA0/s1600/usa$(in-bolt.png" height= 220 width= 150>');
         });
 
-*/
+
 
 
 

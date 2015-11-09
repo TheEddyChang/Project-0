@@ -45,8 +45,14 @@ p {
 	position: fixed;
 	margin: 100px 0px 0px 50px;
 	border-radius: 50px;
-    font-size: 50px;
-    font-color: blue;
+    
+   
+
+}
+
+span {
+	font-color: blue;
+	font-size: 50px;
 }
 
 
@@ -61,14 +67,5 @@ p {
 }
 
 
-#finish {
-	background-color: blue;
-	width: 10px;
-	height: 600px;
-	
-	margin-left: 1100px;
-	position: fixed;
 
-}
 
-h
